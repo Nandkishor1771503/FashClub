@@ -10,7 +10,7 @@ function Nav_div() {
           </span>
           <span className="grid text-3xl md:text-3xl lg:text-4xl  font-Playwrite ">is</span>{" "}
           <span className="grid-cols-3 grid text-2xl md:text-3xl lg:text-6xl font-Playwrite lg:text-gray-400">my</span>
-          <span className="text-3xl md:text-5xl lg:text-6xl ml-10 font-Playwrite">obsessions</span>
+          <span className="text-3xl md:text-5xl lg:text-6xl ml-8 font-Playwrite">obsession</span>
         </div>
 
         <img
