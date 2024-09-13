@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Header from "./components/header";
+import Header from "./components/Header";
 import Cards_sec from "./components/Cards_sec"
 import Highlights from "./components/Highlights";
 import "./App.css";
