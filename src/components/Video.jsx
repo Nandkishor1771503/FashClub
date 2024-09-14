@@ -1,7 +1,7 @@
 import React from "react";
-import Video1 from "../Videos/video1.mp4"
-import Video2 from "../Videos/video2.mp4"
-import Video3 from "../Videos/video3.mp4"
+import Video1 from "../videos/Video1.mp4"
+import Video2 from "../videos/Video2.mp4"
+import Video3 from "../videos/Video3.mp4"
 
 
 function Video() {
