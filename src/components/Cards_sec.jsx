@@ -34,7 +34,7 @@ function Cards_sec() {
             <img
               src="https://tse4.mm.bing.net/th?id=OIP.LTjMQLq4b9szHp42cFn0VQHaHa&pid=Api&P=0&h=180"
               alt=""
-              className="w-12/12 md:w-[100%] rounded-2xl shadow transition-transform transform hover:-translate-y-4 ease-in-out"
+              className="w-11/12 ml-2 mt-2 md:w-[100%] rounded-2xl shadow transition-transform transform hover:-translate-y-4 ease-in-out"
             />
             <span>Accesories</span>
           </div>
@@ -46,7 +46,7 @@ function Cards_sec() {
           <img
             src="https://tse2.mm.bing.net/th?id=OIP.mU6fzZOy2vloE34R6d7dhAAAAA&pid=Api&P=0&h=180"
             alt=""
-            className="h-40 md:w-10/12 md:h-48 lg:h-60 rounded-2xl shadow transition-transform transform hover:-translate-y-4 ease-in-out "
+            className="h-40 w-11/12 ml-1 md:w-10/12 md:h-48 lg:h-60 rounded-2xl shadow transition-transform transform hover:-translate-y-4 ease-in-out "
           />
           <span>Shoes</span>
         </div>

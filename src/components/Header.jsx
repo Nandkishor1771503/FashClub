@@ -29,10 +29,10 @@ function Header() {
           <img
             src={logo}
             alt="logo"
-            className="w-16 h-2/12 rounded-full ml-2 my-2 "
+            className="w-16 h-2/12 rounded-full ml-2 my-2"
           />
 
-          <h1 className=" p-3 ml-4 md:ml-0 m-auto text-white rounded-3xl text-2xl md:text-3xl font-serif ">
+          <h1 className=" p-3 ml-3 md:ml-0 m-auto text-white rounded-3xl text-xl md:text-3xl font-serif ">
             ꟻash Club
           </h1>
 
@@ -82,9 +82,9 @@ function Header() {
                 Contact us
               </button>
             </Link>
-            <button className="text-white p-3 border text-lg mt-6 mx-5 block rounded-xl shadow-md">
+            {/* <button className="text-white p-3 border text-lg mt-6 mx-5 block rounded-xl shadow-md">
               Search
-            </button>
+            </button> */}
           </div>
         </div>
         <Nav_div />

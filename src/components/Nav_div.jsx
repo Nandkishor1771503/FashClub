@@ -3,14 +3,14 @@ import React from "react";
 function Nav_div() {
   return (
     <>
-      <div className="grid grid-cols-2 bg-slate-300 rounded-xl w-11/12 h-56 p-2 my-12 mx-6 shadow-gray-700 shadow-2xl z-40 md:h-80 lg:h-auto lg:bg-transparent lg:shadow-none">
+      <div className="grid grid-cols-2 bg-slate-300 rounded-xl w-11/12 h-56 p-2 my-12 mx-4 shadow-gray-700 shadow-2xl z-40 md:h-80 lg:h-auto lg:bg-transparent lg:shadow-none">
         <div className="text-black lg:text-white grid m-4 gap-0">
           <span className="grid-cols-2 grid text-3xl  font-Playwrite md:text-5xl lg:text-6xl ">
             Fashion
           </span>
           <span className="grid text-3xl md:text-3xl lg:text-4xl  font-Playwrite ">is</span>{" "}
           <span className="grid-cols-3 grid text-2xl md:text-3xl lg:text-6xl font-Playwrite lg:text-gray-400">my</span>
-          <span className="text-3xl md:text-5xl lg:text-6xl ml-10 font-Playwrite">obsession</span>
+          <span className="text-3xl md:text-5xl lg:text-6xl ml-6 font-Playwrite">obsession</span>
         </div>
 
         <img
