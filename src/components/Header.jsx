@@ -39,10 +39,10 @@ function Header() {
           <div className="hidden flex-row gap-8 items-center md:flex">
             
             {/* flex  change the display from hidden to flex onclick of hamburger  */}
-            <a className="cursor-pointer hover:border-b-4  text-white p-3  shadow-white/50">
+            <a href="/" className="cursor-pointer hover:border-b-4  text-white p-3  shadow-white/50">
               HOME
             </a>
-            <a className="cursor-pointer hover:border-b-4  text-white p-3 ">
+            <a href="#" className="cursor-pointer hover:border-b-4  text-white p-3 ">
               PRODUCTS
             </a>
             <Link to="/about">
@@ -63,14 +63,14 @@ function Header() {
         <div className="hidden items-center mt-5 h-full z-10" ref={hamRef}>
           {" "}
           {/* mistake made here passing class as none instead of hidden */}
-          <a href="#" className="text-white p-3 block rounded-3xl mb-4">
+          <a href="/" className="text-white p-3 block rounded-3xl mb-4">
             HOME
           </a>
-          <a href="products" className="text-white p-3 block rounded-3xl shadow mb-4" >
+          <a href="#" className="text-white p-3 block rounded-3xl shadow mb-4" >
             PRODUCTS
           </a>
           <Link to="/about">
-            <a className="text-white p-3  rounded-3xl block shadow mb-4 ">
+            <a href="#" className="text-white p-3  rounded-3xl block shadow mb-4 ">
               {" "}
               ABOUT US
             </a>

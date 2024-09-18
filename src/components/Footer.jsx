@@ -11,7 +11,7 @@ function Footer() {
             <div>
               <h3 className="text-lg font-semibold mb-4">About Us</h3>
               <p className="text-gray-400">
-                We are a small business committed to providing high-quality
+                We are a business committed to providing high-quality
                 products and excellent customer service. Discover our story and
                 see why our customers love us.
               </p>
