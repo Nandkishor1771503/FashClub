@@ -1,4 +1,5 @@
 import React from "react";
+import display from '../images/fash_disp.jpg'
 
 function Nav_div() {
   return (
@@ -14,7 +15,7 @@ function Nav_div() {
         </div>
 
         <img
-          src="https://i.pinimg.com/originals/2b/42/0f/2b420f9fd0607479adbdcb444f989db5.jpg"
+          src={display}
           alt=""
           className="w-[82%] h-52 my-auto mx-9 z-50 shadow-xl rounded-2xl  md:w-[85%] md:h-64 md:mx-9 lg:w-[75%] lg:mx-40 lg:shadow-gray-800 lg:shadow-xl "
         />
