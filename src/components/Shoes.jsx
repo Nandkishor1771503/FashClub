@@ -1,6 +1,8 @@
 import React from 'react'
 import Shoes_data from '../data/shoes'
 import Whatsapp_icon from './Whatsapp';
+import { FaWhatsapp } from "react-icons/fa";
+
 
 function Shoes() {
   return (
@@ -20,6 +22,16 @@ function Shoes() {
                   <span className="text-black text-2xl">{item}</span>
                   <h3 className="text-blue-700  text-lg">{price}</h3>
                 </div>
+                <button className="bg-green-600 text-2xl w-[50%] ml-5 mb-4 p-1 rounded-full">
+                  {" "}
+                  <a
+                    href={`https://wa.me/918143366416?text=${encodeURIComponent(
+                      `Iam intrested to buy this Product ${item} which is nearly ${price}`
+                    )}`} className="flex items-center justify-center"
+                  >
+                    <FaWhatsapp /> Buy now 
+                  </a>{" "}
+                </button>
               </div>
             );
           })}
